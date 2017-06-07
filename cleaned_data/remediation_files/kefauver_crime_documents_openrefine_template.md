@@ -1,4 +1,6 @@
-# Kefauver Crime Documents OPenRefine Template
+# Kefauver Crime Documents OpenRefine Template
+
+This template is based on the [project data dictionary](https://wiki.lib.utk.edu/display/DLP/Kefauver+Crime+Documents+-+Data+Dictionary).
 
 ## Prefix
 
