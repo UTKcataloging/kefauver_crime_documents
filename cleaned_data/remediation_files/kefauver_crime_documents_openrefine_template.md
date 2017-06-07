@@ -16,6 +16,9 @@ This template is based on the [project data dictionary](https://wiki.lib.utk.edu
 {{ if(cells['identifier_file'].value != "IGNORE", '<identifier type="local">' + cells['identifier_file'].value +'</identifier>', '')}}
 {{ if(cells['PID'].value != "IGNORE", '<identifier type="pid">' + cells['PID'].value +'</identifier>', '')}}
 {{ if(cells['title'].value != "IGNORE", '<titleInfo>' + if(cells['title_initial_article'].value != "IGNORE", '<nonSort>' + cells['title_initial_article'].value + '</nonSort>', '') + '<title>' + cells['title'].value + '</title>', '')}}
+{{ if(cells['rights'].value != "IGNORE", '<accessCondition type="use and reproduction"' + if(cells['rights_URI'] != "IGNORE", ' xlink:href="' + cells['rights_URI'].value + '"', '') + '>' + cells['rights'].value + '</accessCondition>', '')}}
+{{ if(cells['rights_holder_name'].value != "IGNORE", '<name' + if(cells['rights_holder_name_authority'].value != "IGNORE", ' authority="' + cells['rights_holder_name_authority'].value + '"', '') +
+if(cells['rights_holder_name_type'].value != "IGNORE", ' type="' + cells["rights_holder_name_type"].value + '"', '') + if(cells['rights_holder_name_URI'].value != "IGNORE", 'valueURI="' + cells['rights_holder_name_URI'].value + '"', '') + '><namePart>' + cells['rights_holder_name'].value + '</namePart><role><roleTerm authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cph" type="text">Copyright holder</roleTerm></role></name>', '')}}
 </mods>
 ```
 
