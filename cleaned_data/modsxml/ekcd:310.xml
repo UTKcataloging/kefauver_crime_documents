@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">0012_000104_000246</identifier>
+   <identifier type="pid">ekcd:310</identifier>
+   <titleInfo>
+      <title>"Teenage Delinquency"</title>
+   </titleInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/page/UND/1.0/">Copyright Undetermined</accessCondition>
+   <name authority="naf"
+         type="personal"
+         valueURI="http://id.loc.gov/authorities/names/n79144615">
+      <namePart>Kefauver, Estes, 1903-1963</namePart>
+      <role>
+         <roleTerm authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cph"
+                   type="text">Copyright holder</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <originInfo>
+      <dateCreated qualifier="approximate">circa 1955</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes">1955</dateCreated>
+   </originInfo>
+   <physicalDescription>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300026931">drafts (documents)</form>
+      <extent>1 document (4 pages)</extent>
+   </physicalDescription>
+   <relatedItem displayLabel="Collection" type="host">
+      <titleInfo>
+         <title>Estes Kefauver Papers</title>
+      </titleInfo>
+      <identifier>MPA.0144</identifier>
+   </relatedItem>
+   <location>
+      <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+   </location>
+   <abstract>Draft of a statement advocating for better resources for juvenile delinquents, and for tougher punishments for young people who create criminal acts. This is likely not the writing of Estes Kefauver.</abstract>
+   <language>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Kefauver Crime Documents</title>
+      </titleInfo>
+   </relatedItem>
+   <recordInfo>
+      <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+      <languageOfCataloging>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+      <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+   </recordInfo>
+   <subject>
+      <topic authority="lcsh">Juvenile delinquency</topic>
+   </subject>
+</mods>

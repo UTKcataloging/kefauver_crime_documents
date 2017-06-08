@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">0012_000104_000229</identifier>
+   <identifier type="pid">ekcd:422</identifier>
+   <titleInfo>
+      <title>"Senator Estes Kefauver to Meet Chelseans for Crime Discussion at Hudson Guild"</title>
+   </titleInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/page/NKC/1.0/">No Known Copyright</accessCondition>
+   <name authority="naf"
+         type="corporate"
+         valueURI="http://id.loc.gov/authorities/names/no98105553">
+      <namePart>Hudson Guild (New York, N.Y.)</namePart>
+      <role>
+         <roleTerm authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cph"
+                   type="text">Copyright holder</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <originInfo>
+      <dateCreated qualifier="inferred">1951</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes">1951</dateCreated>
+   </originInfo>
+   <physicalDescription>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300026437">press releases</form>
+      <extent>1 document (1 page)</extent>
+   </physicalDescription>
+   <relatedItem displayLabel="Collection" type="host">
+      <titleInfo>
+         <title>Estes Kefauver Papers</title>
+      </titleInfo>
+      <identifier>MPA.0144</identifier>
+   </relatedItem>
+   <name authority="naf" type="corporate">
+      <namePart>Hudson Guild (New York, N.Y.)</namePart>
+      <role>
+         <roleTerm>Creator</roleTerm>
+      </role>
+   </name>
+   <location>
+      <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+   </location>
+   <abstract>Press release announcing a meeting between Senator Estes Kefauver and residents of Chelsea to discuss prevention of lawlessness and corruption.</abstract>
+   <language>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Kefauver Crime Documents</title>
+      </titleInfo>
+   </relatedItem>
+   <recordInfo>
+      <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+      <languageOfCataloging>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+      <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+   </recordInfo>
+   <subject>
+      <geographic authority="naf">Chelsea (Manhattan, New York, N.Y.)</geographic>
+   </subject>
+   <subject>
+      <name authority="naf" type="personal">
+         <namePart>Kefauver, Estes, 1903-1963</namePart>
+      </name>
+   </subject>
+   <subject>
+      <name authority="naf" type="corporate">
+         <namePart>Hudson Guild (New York, NY)</namePart>
+      </name>
+   </subject>
+   <subject>
+      <topic authority="lcsh">Organized crime--Prevention</topic>
+   </subject>
+</mods>

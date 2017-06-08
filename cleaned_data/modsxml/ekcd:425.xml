@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">0012_000104_000228</identifier>
+   <identifier type="pid">ekcd:425</identifier>
+   <titleInfo>
+      <title>"Trailer Material"</title>
+   </titleInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/page/UND/1.0/">Copyright Undetermined</accessCondition>
+   <typeOfResource>text</typeOfResource>
+   <originInfo>
+      <dateCreated qualifier="inferred">circa 1952</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes">1952</dateCreated>
+   </originInfo>
+   <physicalDescription>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300026487">scripts (documents)</form>
+      <extent>1 document (1 page)</extent>
+   </physicalDescription>
+   <relatedItem displayLabel="Collection" type="host">
+      <titleInfo>
+         <title>Estes Kefauver Papers</title>
+      </titleInfo>
+      <identifier>MPA.0144</identifier>
+   </relatedItem>
+   <name authority="naf" type="personal">
+      <namePart>Kefauver, Estes 1903-1963</namePart>
+      <role>
+         <roleTerm>Contributor</roleTerm>
+      </role>
+   </name>
+   <location>
+      <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+   </location>
+   <abstract>First page of Senator Estes Kefauver's trailer dialogue, presumably for a movie about organized crime.</abstract>
+   <language>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+   </language>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Kefauver Crime Documents</title>
+      </titleInfo>
+   </relatedItem>
+   <note>Document incomplete; cuts off midsentence.</note>
+   <recordInfo>
+      <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+      <languageOfCataloging>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+      <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+   </recordInfo>
+   <subject>
+      <name authority="naf" type="personal">
+         <namePart>Kefauver, Estes, 1903-1963</namePart>
+      </name>
+   </subject>
+   <subject>
+      <topic authority="lcsh">Organized crime</topic>
+   </subject>
+   <subject>
+      <topic authority="lcsh">Gangster films</topic>
+   </subject>
+</mods>
