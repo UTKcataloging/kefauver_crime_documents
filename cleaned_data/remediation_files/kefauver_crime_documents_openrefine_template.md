@@ -27,6 +27,18 @@ if(cells['rights_holder_name_type'].value != "IGNORE", ' type="' + cells["rights
 {{if(cells['name1'].value != "IGNORE", '<name' + if(cells['name_authority1'].value != "IGNORE", ' authority="' + cells['name_authority1'].value +'"', '') +  if(cells['name_type1'].value != "IGNORE", ' type="' + cells['name_type1'].value +'"', '') + "><namePart>" + if(cells['name1'].value != "IGNORE", cells['name1'].value, '') + "</namePart><role><roleTerm" + ">" + if(cells['name_role1'].value != "IGNORE", cells['name_role1'].value, '') + "</roleTerm></role></name>", '')}}
 <location><physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation></location>
 {{if(cells['abstract'].value != "IGNORE", '<abstract>' + cells['abstract'].value + '</abstract>', '')}}
+{{if(cells['genre_URI'].value != "IGNORE", '<genre authority="lcgft" authorityURI="http://id.loc.gov/authorities/genreForms" valueURI="' + cells['genre_URI'].value + '">' + cells['genre'].value + '</genre>', '')}}
+<language><languageTerm type="code" authority="iso639-2b">eng</languageTerm></language>
+<relatedItem displayLabel="Project" type="host"><titleInfo><title>Kefauver Crime Documents</title></titleInfo></relatedItem>
+{{if(cells['public_note'].value != "IGNORE", '<note>' + cells['public_note'].value + '</note>', '')}}
+<recordInfo><recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSourc>
+<languageOfCataloging>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+      <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin></recordInfo>
+{{if(cells['subject_geographic'].value != "IGNORE", '<subject><geographic' + if(cells['subject_geographic_authority'].value != "IGNORE", ' authority="' + cells['subject_geographic_authority'].value + '"', '') + '>' + cells['subject_geographic'].value + '</geographic></subject>' , '')}}
+{{if(cells['subject_geographic1'].value != "IGNORE", '<subject><geographic' + if(cells['subject_geographic_authority1'].value != "IGNORE", ' authority="' + cells['subject_geographic_authority1'].value + '"', '') + '>' + cells['subject_geographic1'].value + '</geographic></subject>' , '')}}
+{{if(cells['subject_name'].value != "IGNORE", '<subject><name' + if(cells['subject_name_authority'].value != "IGNORE", ' authority="' + cells['subject_name_authority'].value + '"', '') + if(cells['subject_name_type'].value != 'IGNORE', ' type="' + cells['subject_name_type'].value + '"', '') + '><namePart>' + cells['subject_name'] + '</namePart></name></subject>', '')}}
 </mods>
 ```
 
